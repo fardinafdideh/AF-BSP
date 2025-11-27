@@ -27,7 +27,7 @@ This content, both the theoretical slides and practical code examples, is intend
 - Blind Adaptation: Strategies for real-world applications where the desired signal is not available, relying only on statistical properties.
 
 ## 💻 Interactive Demonstration I: Adaptive Filters in BSP 
-📂 `adaptive_filters_demonstration.ipynb`
+📂 `code/adaptive_filters_demonstration.ipynb`
 
 This Jupyter Notebook provides a practical, step-by-step interactive demonstration of adaptive filtering techniques, complementing the theoretical material in the provided PDF lecture slides. 
 The focus is on using these algorithms for noise cancellation in biomedical signals where noise characteristics are unknown or time-varying.
@@ -40,14 +40,14 @@ LMS and NLMS offer moderate improvement but are significantly more computational
 The selection of the appropriate filter depends on the application constraints.
 
 ## 💻 Interactive Demonstration II: Power Line Interference (PLI) Cancellation
-📂 `Power_Line_Interference_Cancellation_of_an_ECG_Signal_using_Adaptive_Filters.ipynb`
+📂 `code/Power_Line_Interference_Cancellation_of_an_ECG_Signal_using_Adaptive_Filters.ipynb`
 
 This Notebook provides a real-world application of the adaptive filtering principles discussed in the main lecture. 
 It focuses on the crucial task of removing Power Line Interference (PLI), a ubiquitous source of noise (typically 50 or 60 Hz) in Electrocardiogram (ECG) recordings.
 The notebook demonstrates the Adaptive Noise Cancellation (ANC) architecture, which is highly effective because PLI is often highly correlated with a reference signal (simulated in the notebook), allowing the adaptive filter to track and remove only the interference.
 
 ## 💻 Interactive Demonstration III: Kalman Filter in Biomedical Estimation
-📂 `kalman_filter_demonstration.ipynb`
+📂 `code/kalman_filter_demonstration.ipynb`
 
 Unlike the simpler LMS-family algorithms, the Kalman Filter is designed to handle state-space models, making it ideal for tracking hidden physiological parameters (states) that are only indirectly observed through noisy measurements.
 State-Space Modeling is how to model a dynamic system (like a physiological process) using a set of state variables and transition matrices, which is the foundation for KF. 
